@@ -17,7 +17,7 @@ Readme File
 
 
 Immutable
-----------
+---------
 .. inclusion-marker-do-not-remove-start
 
 Immutable library helps to convert python dictionary to namedtuples and converting values to immutable datastructure
@@ -44,7 +44,7 @@ config immutable.
 
     .. code-block:: html
 
-        pip install immutable
+        pip install immutable-config
 
 .. topic:: **Requirements**
 
@@ -93,17 +93,17 @@ Code Example
 Options
 =======
 only_const (default = False)
-----------
+----------------------------
 It will create namedtuple from all dictionary keys. When it is set to :code:`True`,
 it will only create namedtuple from :code:`constants` (all caps variables).
 
 recursive (default = False)
----------
+---------------------------
 Only first level of key-vales are immuted, when it is set to :code:`False`. When it is set to :code:`True`,
 all the key-values are traversed and converted to immutable.
 
 clone (default = True)
------
+----------------------
 Clone the given dictionary and mutates it. deepcopy is a costly operation when dictionary is to
 many levels of nested with basic python data structure (list, tuple, set, dict).
 
