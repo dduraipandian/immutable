@@ -22,13 +22,14 @@ class Tox(TestCommand):
 
 
 setuptools.setup(
-    name="immutable",
+    name="immutable-config",
     packages=setuptools.find_packages(exclude=("tests",)),
     version=immutable.__version__,
     author=immutable.__author__,
     author_email=immutable.__contact__,
     description=immutable.__description__,
     long_description=open('README.rst').read(),
+    long_description_content_type="text/x-rst",
     url="https://github.com/dduraipandian/immutable",
     package_dir={'immutable': 'immutable'},
     classifiers=[
