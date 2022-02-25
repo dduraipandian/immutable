@@ -2,12 +2,12 @@
 Readme File
 ===========
 
-.. image:: https://app.travis-ci.com/dduraipandian/immutable.svg?token=HYyTsSU9ynxiqecjxoc5&branch=main
-    :target: https://travis-ci.com/dduraipandian/immutable
+.. image:: https://app.travis-ci.com/dduraipandian/immutable-config.svg?branch=main
+    :target: https://travis-ci.com/dduraipandian/immutable-config
     :alt: Travis CI
 
-.. image:: https://codecov.io/gh/dduraipandian/immutable/branch/main/graph/badge.svg
-  :target: https://codecov.io/gh/dduraipandian/immutable
+.. image:: https://codecov.io/gh/dduraipandian/immutable-config/branch/main/graph/badge.svg
+  :target: https://codecov.io/gh/dduraipandian/immutable-config
   :alt: codecov test coverage
 
 .. image:: https://img.shields.io/badge/License-MIT-blue.svg
@@ -16,15 +16,15 @@ Readme File
 
 
 
-Immutable
----------
+Immutable-Config
+----------------
 .. inclusion-marker-do-not-remove-start
 
-Immutable library helps to convert python dictionary to namedtuples and converting values to immutable datastructure
+Immutable-config library helps to convert python dictionary to namedtuples and converting values to immutable datastructure
 recursively. Namedtuples, by default, are immutable.
 You can't modify them. But If you have nested data structures, you can still modify them.
 
-Immutable library tries to provides a function to convert them immutable and creates namedtuple from the converted dict.
+Immutable-config library tries to provides a function to convert them immutable and creates namedtuple from the converted dict.
 
 Dict    -> MappingProxyType
 
